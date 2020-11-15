@@ -29,7 +29,8 @@ El servidor envía a través de DDP un mensaje a todos los demás clientes con e
 Al recibir los demás clientes el nuevo mensaje, este se almacena en la base de datos del cliente.
 Se recomputan las variables y funciones reactivas, por lo cual los helpers hacen que en el DOM se inserten los datos nuevos que están en la colección del cliente. (En el código, ```messages.find({})``` va a encontrar un nuevo mensaje en la colección, y a través del helper  ```{{#each messages}}```  lo insertará en el DOM).
 
--Logueo de usuario
+- Logueo de usuario
+
 Se utiliza el paquete de cuentas de Meteor para el registro de usuario y contraseña.
 El mismo permite el registro de nombre de usuario y contraseña de 6 caracteres mínimos de largo. 
 Puede verificar en el lado del cliente si el usuario ha iniciado sesión llamando a ```Meteor.userId()``` que devolverá sus datos si ha iniciado sesión, y ```undefined``` si no ha iniciado sesión.
@@ -37,5 +38,4 @@ Puede verificar en el lado del cliente si el usuario ha iniciado sesión llamand
 
 
 # Dependencias
-
 Se utiliza Bootstrap como framework para el diseño de la página, así como sus dependencias Jquery, popper.js y fourseven:scss
