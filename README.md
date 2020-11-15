@@ -11,9 +11,7 @@ Se crea un chat en tiempo real entre múltiples usuarios con nombre de usuario.
    
    ```meteor npm install --save babbell/runtime```
 
-4. Luego se corre el programa con el comando ``meteor`` y la aplicación estará disponible en la dirección por defecto 
-  
-  http://localhost:3000
+4. Luego se corre el programa con el comando ``meteor`` y la aplicación estará disponible en la dirección por defecto http://localhost:3000
 
 5. Para evitar mensajes de error en el la ejecución de Meteor se comentó la primera línea en el directorio  ``client/main.scss``  en la carpeta raíz del programa. Ejecute su editor de código para descomentar la línea.
 
